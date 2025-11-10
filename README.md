@@ -4,6 +4,8 @@ A hand detection app that uses your webcam to track your hands. Includes a coupl
 
 This app uses **MediaPipe** for hand tracking, which provides real-time hand detection and landmark tracking.
 
+![Hands Detector](example-images/image1.png)
+
 ## Requirements
 
 - **Python 3.11** (other versions might work but 3.11 is tested)
