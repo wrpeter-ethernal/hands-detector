@@ -2,7 +2,7 @@
     "_comment_GAMES": "GAMES",
     "GAMES": {
         "piano_game": false,
-        "coins_game": true
+        "coins_game": false
     },
 
     "gpu_mode": true,
