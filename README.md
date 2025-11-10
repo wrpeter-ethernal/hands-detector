@@ -2,6 +2,8 @@
 
 A hand detection app that uses your webcam to track your hands. Includes a couple of games you can play with hand gestures.
 
+This app uses **MediaPipe** for hand tracking, which provides real-time hand detection and landmark tracking.
+
 ## Requirements
 
 - **Python 3.11** (other versions might work but 3.11 is tested)
@@ -62,6 +64,16 @@ Open `config.json` and you'll see a `GAMES` section:
 - Set `coins_game` to `true` to play the coin collecting game
 
 **Important**: Only enable **one game at a time**. Enabling multiple games simultaneously can cause bugs and weird behavior.
+
+### Step 4: Enable GPU mode (recommended)
+
+For better performance and smoother tracking, it's recommended to enable GPU mode. In `config.json`, set:
+
+```json
+"gpu_mode": true
+```
+
+This will use your GPU to accelerate MediaPipe's hand detection, making the app run much more smoothly. If you don't have a compatible GPU or experience issues, you can set it to `false` to use CPU mode instead.
 
 ## Running the App
 
