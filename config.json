@@ -1,0 +1,12 @@
+{
+    "_comment_GAMES": "GAMES",
+    "GAMES": {
+        "piano_game": false,
+        "coins_game": true
+    },
+
+    "gpu_mode": true,
+    "window_width": 960,
+    "window_height": 720
+}
+
