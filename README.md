@@ -1,4 +1,4 @@
-# Hands Detector
+# Hands Detector (English)
 
 A hand detection app that uses your webcam to track your hands. Includes a couple of games you can play with hand gestures.
 
