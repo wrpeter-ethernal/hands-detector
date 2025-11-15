@@ -163,6 +163,7 @@ def update_ball(game_state):
 
 coins_game_state = None
 
+
 def get_finger_states(landmarks, is_right_hand=True):
     finger_tips = [4, 8, 12, 16, 20]
     finger_pips = [3, 6, 10, 14, 18]
